@@ -10,7 +10,6 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 function isPalindrome(int) {
     int = int.toString();
     let check = "";
-    let isSame = false;
 
     //for loop builds out the reverse string of the number one character at a time
     for (i = int.length-1; i >= 0; i--) {
@@ -18,11 +17,7 @@ function isPalindrome(int) {
     }
 
     //if int is the same as its reverse, int is a palindrome
-    if (int == check) {
-        isSame = true;
-    }
-
-    return isSame;
+    return (int == check);
 
 }
 
