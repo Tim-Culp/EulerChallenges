@@ -32,13 +32,14 @@ Since 2 is confirmed by the confirmation of 16, all other even numbers are confi
 
 //we start with the multiple of the factors that are determined to be essential and go down from there to make sure there are no other smaller multiples
 let smallestMultiple;
-let startingMultiple = 19n*17n*16n*13n*11n*9n*7n*5n;
+let startingMultiple = 19n*17n*16n*13n*11n*9n*7n*5n*2n;
 console.log("start: ", startingMultiple);
 for (let i = startingMultiple; i>0n; i--) {
     if (i % 19n == 0n && i % 17n == 0n && i % 16n == 0n && i % 13n == 0n && i % 11n == 0n && i % 9n == 0n && i % 7n == 0n && i % 5n == 0n) {
         smallestMultiple = i;
-        console.log(i);
+        console.log("possible multiple:", i);
+        console.log("thinking...");
     }
     //console.log(i);
 } 
-console.log(smallestMultiple);
+console.log("smallest multiple:", smallestMultiple);
