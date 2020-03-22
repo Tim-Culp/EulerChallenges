@@ -18,7 +18,7 @@
 3 - 3
 2 - 2
 
-We must confirm whether a number we consider is a multiple of our 20 integers.
+We must confirm whether a number we consider is a multiple of our 20 factors.
 If we confirm some factors, we can rule out the need to confirm other factors.
 Prime factors are required unless a multiple of them is confirmed.
 Because 16 is a multiple of 8, 4, and 2, we don't have to confirm whether our number is divisible by 8, 4, or 2.
