@@ -21,9 +21,10 @@
 We must confirm whether a number we consider is a multiple of our 20 factors.
 If we confirm some factors, we can rule out the need to confirm other factors.
 Prime factors must be considered unless a multiple of them is confirmed.
-Because 16 is a multiple of 8, 4, and 2, we don't have to confirm whether our number is divisible by 8, 4, or 2.
+Because 16 is a multiple of 8, 4, and 2, we don't have to confirm whether a number we consider is divisible by 8, 4, or 2.
 Since 2 is confirmed by the confirmation of 16, all other even numbers are confirmed if their halves are confirmed.
 3 is confirmed if 9 is confirmed.
+6 is confirmed if 3 and 16 are confirmed.
 18 is confirmed if 9 and 16 are confirmed.
 20 is confirmed if 5 and 16 are confirmed.
 15 is confirmed if 9 and 5 are confirmed.
